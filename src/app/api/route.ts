@@ -8,6 +8,6 @@ export function GET(request: NextRequest) {
         { studentId: "66024xxx", name: "TestBBB" }
     ];
 
-    return NextResponse.json({ message: "GET method called" });
+    return NextResponse.json({ message: "get group member success", data: listMembers });
 
 }
